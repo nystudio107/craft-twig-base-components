@@ -1,0 +1,31 @@
+{
+  "name": "nystudio107/craft-twig-base-components",
+  "description": "Craft CMS Twig base components",
+  "type": "twig-bundle",
+  "version": "1.0.0",
+  "keywords": [
+    "twig",
+    "twig-bundle",
+    "composer",
+    "installer",
+    "bundle"
+  ],
+  "homepage": "https://nystudio107.com",
+  "require": {
+    "craftcms/cms": "*",
+    "nystudio107/twig-bundle-installer": "^1.0.0"
+  },
+  "support": {
+    "email": "info@nystudio107.com",
+    "issues": "https://github.com/nystudio107/craft-twig-base-components/issues",
+    "source": "https://github.com/nystudio107/craft-twig-base-components",
+    "docs": "https://github.com/nystudio107/craft-twig-base-components"
+  },
+  "autoload": {
+    "psr-4": {
+      "nystudio107\\craftTwigBaseComponents\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "minimum-stability": "stable"
+}
